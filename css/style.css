@@ -1,0 +1,47 @@
+body {
+    background: rgb(37, 37, 37);
+}
+
+#search-title {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 2rem;
+}
+
+.title, .search-form { display: inline-block; }
+
+.search-form { 
+    width: 460px; 
+    border-radius: 20px; 
+    background: rgb(44, 44, 44);
+}
+
+#search-input { 
+    border-radius: 20px; 
+    border: none; 
+    width: 400px;
+}
+
+#search-button, #search-input { display: inline; }
+
+#search-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+#search-button, #search-input {
+    background: rgb(44, 44, 44);
+    color: #fff;
+}
+
+.card { background: none; border: none; color: #fff; }
+
+.result { 
+    width: 40rem;
+    margin-left: 5rem; 
+}
+
+#card-link { color: #8ab4f8; }
+.card-subtitle { text-decoration: none; }
